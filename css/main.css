@@ -27,6 +27,7 @@
   --bs-btn-bg: var(--bs-primary);
   --bs-btn-color: black;
 }
+
 /* Banner */
 .banner{
   background: #CFB2B3 url(../images/banner.jpg) no-repeat center;
@@ -61,6 +62,9 @@ body {
   background-color: var(--bs-primary);
   color: var(--bs-dark);
   animation: specialhover 1s forwards;
+}
+.navbar{
+  background-color: #C7CBCF !important;
 }
 @keyframes specialhover {
 0%{
