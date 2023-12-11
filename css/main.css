@@ -1,0 +1,170 @@
+:root,
+[data-bs-theme=light],
+[data-bs-theme=dark]{
+  --bs-primary: #707B82;
+  --bs-secondary: #CFB2B3;
+  --bs-primary-rgb: #707B82;
+  --bs-secondary-rgb: #CFB2B3;
+  --bs-primary-text-emphasis: #707B82;
+  --bs-secondary-text-emphasis: #CFB2B3;
+  --bs-primary-bg-subtle: #707B82;
+  --bs-secondary-bg-subtle: #CFB2B3;
+  --bs-primary-border-subtle: #707B82;
+  --bs-secondary-border-subtle: #CFB2B3;
+}
+.btn-primary,
+.btn-outline-primary {
+  --bs-btn-color: var(--bs-primary);
+  --bs-btn-border-color: var(--bs-primary);
+  --bs-btn-hover-bg: var(--bs-primary-bg-subtle);
+  --bs-btn-hover-border-color: var(--bs-primary-bg-subtle);
+  --bs-btn-active-bg: var(--bs-primary);
+  --bs-btn-active-border-color: var(--bs-primary);
+  --bs-btn-disabled-color: var(--bs-primary-text-emphasis);
+  --bs-btn-disabled-border-color: var(--bs-primary-text-emphasis);
+}
+.btn-primary{
+  --bs-btn-bg: var(--bs-primary);
+  --bs-btn-color: black;
+}
+/* Banner */
+.banner{
+  background: #CFB2B3 url(../images/banner.jpg) no-repeat center;
+  background-size: cover;
+  height: 800px;
+  padding-top: 300px !important;
+}
+.banner_2{
+  background: #CFB2B3 url(../images/banner_2.jpg) no-repeat center;
+  background-size: cover;
+  height: 800px;
+}
+.banner_3{
+  background: #CFB2B3 url(../images/banner_3.jpg) no-repeat center;
+  background-size: cover;
+  height: 800px;
+}
+body {
+  background-color: #CFB2B3;
+}
+/* navbar */
+.navbar li a,
+.navbar li a:link,
+.navbar li a:visited{
+  color: var(--bs-primary);
+}
+.navbar li a:hover,
+.navbar li a:focus,
+.navbar li a.active,
+.navbar-nav .nav-link.active, 
+.navbar-nav .nav-link.show{
+  background-color: var(--bs-primary);
+  color: var(--bs-dark);
+  animation: specialhover 1s forwards;
+}
+@keyframes specialhover {
+0%{
+  transform: translate(0,0)
+}
+100%{
+  transform: translate(10px, 10px);
+  box-shadow: white -3px -6px 4px 1px;
+}
+}
+
+.hvr-radial-out {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+  background: #e1e1e1;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-radial-out:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--bs-primary);
+  border-radius: 100%;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-radial-out:hover, .hvr-radial-out:focus, .hvr-radial-out:active {
+  color: white;
+}
+.hvr-radial-out:hover:before, .hvr-radial-out:focus:before, .hvr-radial-out:active:before {
+  -webkit-transform: scale(2);
+  transform: scale(2);
+}
+.social-media-icon img {
+  margin-right: 16px;
+  margin-bottom: 8px;
+  width: 26px;
+}
+.apple-icon img {
+justify-content: center;
+}
+
+.footer-info a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.image-container img,
+.info-box img,
+.home-hot-item-0-box img,
+.home-hot-item-1-box img,
+.home-hot-item-2-box img {
+  width: 100%;
+}
+
+.skip-link-content {
+  position: fixed;
+  top: 0px;
+  left: 20px;
+  color: #fff;
+  padding: 10px 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: left;
+  z-index: 9999;
+}
+
+.map {
+  width: 100%;
+  height: 500px;
+}
+
+/* Styling - the Download APP section */
+.download-app {
+  background-color: #C7CBCF;
+  border-radius: 80px;
+  color: black;
+  text-align: center;
+  padding: 52px 5px 52px 5px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 350px;
+  margin-right: 350px;
+}
+
+/* Styling - h3 headings, paragraphs and buttons within the download section */
+.download-section h3 {
+  font-family: righteous;
+}

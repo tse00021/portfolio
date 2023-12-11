@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Final Project - Web Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- Animate on Scroll CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+  <header>
+    <!-- Navigation menu -->
+    <nav class="navbar navbar-expand-lg bg-primary" role="navigation" aria-label="Navigation">
+        <div class="container-md">
+            <!-- Logo -->
+            <a class="navbar-brand animate__animated animate__tada" href="index.html">
+                <img src="images/logo.png" alt="Elvis Tse Studio">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+                aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <!--Accessibility Guidelines - Aria Roles -->
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a aria-label="Go to Home Page" class="nav-link active" aria-current="page"
+                            href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a aria-label="Go to About Page" class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a aria-label="Go to Gallery Page" class="nav-link"
+                            href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a aria-label="Go to Contact Page" class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+  <main>
+    <section id="about">
+      
+        <div class="row">
+          <div class="col">
+      
+          </div><!-- closes .col -->
+        </div><!-- closes .row -->
+    </section><!-- closes .banner -->
+
+    <!-- Gallery Section -->
+    <section id="services" class="container-lg">
+      <div class="row gy-2 g-md-2">
+        <div class="col-12">
+          <h2 class="display-3 text-center">Gallery</h2>
+          <p class="display-7 text-center">Celebrating Love: A Visual Symphony of Unforgettable Moments - Our Wedding
+            Day Gallery</p>
+        </div>
+        <div class="col-md-6">
+          <div class="card rounded-0 border-0">
+            <picture>
+              <!-- Desktop Sizes (Image)-->
+              <source srcset="images/photo-1-960_x_540.jpg 1x,
+              images/photo-1-1440_x_811.jpg 2x"
+                  media="(min-width: 1080px)" />
+              <!-- Mobile Sizes (Image) -->
+              <source srcset="images/photo-1-320_x_180.jpg 1x,
+              images/photo-1-960_x_540.jpg 2x"
+                  media="(max-width: 430px)" />
+              <!-- Default fallback for unsupported browsers or small screens -->
+              <img class="rounded-4" src="images/photo-1-320_x_180.jpg"
+                  alt="our Love">
+          </picture>
+           
+            <div class="card-body bg-secondary">
+              <h5 class="card-title">Our Love</h5>
+              <p class="card-text">Falling in Love: A Tapestry of Red
+                Autumn Bliss</p>
+             
+            </div><!-- closes .card-body -->
+          </div><!-- closes .card -->
+        </div><!-- closes .col -->
+        <div class="col-md-6">
+          <div class="card rounded-0 border-0">
+            <picture>
+              <!-- Desktop Sizes (Image)-->
+              <source srcset="images/photo-2-960_x_540.jpg 1x,
+              images/photo-2-1440_x_811.jpg 2x"
+                  media="(min-width: 1080px)" />
+              <!-- Mobile Sizes (Image) -->
+              <source srcset="images/photo-2-320_x_180.jpg 1x,
+              images/photo-2-960_x_540.jpg 2x"
+                  media="(max-width: 430px)" />
+              <!-- Default fallback for unsupported browsers or small screens -->
+              <img class="rounded-4" src="images/photo-2-320_x_180.jpg"
+                  alt="Autumn's Love">
+          </picture>
+            <div class="card-body bg-secondary">
+              <h5 class="card-title">Autumn's Love</h5>
+              <p class="card-text">Autumn Embrace: Love Amidst Crimson
+                Leaves</p>
+          
+            </div><!-- closes .card-body -->
+          </div><!-- closes .card -->
+        </div>
+        <div class="col-md-6">
+          <div class="card rounded-0 border-0">
+            <picture>
+              <!-- Desktop Sizes (Image)-->
+              <source srcset="images/photo-3-960_x_540.jpg 1x,
+              images/photo-3-1440_x_811.jpg 2x"
+                  media="(min-width: 1080px)" />
+              <!-- Mobile Sizes (Image) -->
+              <source srcset="images/photo-3-320_x_180.jpg 1x,
+              images/photo-3-960_x_540.jpg 2x"
+                  media="(max-width: 430px)" />
+              <!-- Default fallback for unsupported browsers or small screens -->
+              <img class="rounded-4" src="images/photo-3-320_x_180.jpg"
+                  alt="Dancing Red Autumn">
+          </picture>
+            <div class="card-body bg-secondary">
+              <h5 class="card-title">Dancing Red Autumn</h5>
+              <p class="card-text">Whispers of Fall: A Romantic Stroll
+                Through Scarlet Hues</p>
+              
+            </div><!-- closes .card-body -->
+          </div><!-- closes .card -->
+        </div><!-- closes .col -->
+        <div class="col-md-6">
+          <div class="card rounded-0 border-0">
+            <picture>
+              <!-- Desktop Sizes (Image)-->
+              <source srcset="images/photo-4-960_x_540.jpg 1x,
+              images/photo-4-1440_x_811.jpg 2x"
+                  media="(min-width: 1080px)" />
+              <!-- Mobile Sizes (Image) -->
+              <source srcset="images/photo-4-320_x_180.jpg 1x,
+              images/photo-4-960_x_540.jpg 2x"
+                  media="(max-width: 430px)" />
+              <!-- Default fallback for unsupported browsers or small screens -->
+              <img class="rounded-4" src="images/photo-4-320_x_180.jpg"
+                  alt="Whispers of Romance">
+          </picture>
+            <div class="card-body bg-secondary">
+              <h5 class="card-title">Whispers of Romance</h5>
+              <p class="card-text">Crimson Connection: Our Love Story in
+                Autumn's Embrace</p>
+              
+            </div><!-- closes .card-body -->
+          </div><!-- closes .card -->
+        </div>
+
+      </div><!-- closes .row -->
+    </section><!-- closes #Gallery -->
+  </main>
+  <!-- Page footer section -->
+
+<!-- Download APP section -->
+<section class="download-section">
+  <div class="container">
+      <div class="download-app">
+          <h3>DOWNLOAD APP & GET THE VOUCHER!</h3>
+      </div> <!-- close .download-app -->
+  </div> <!-- container -->
+</section> <!-- close .download-section -->
+
+    <!--Accessibility Guidelines - Schema -->
+    <footer class="bg-primary py-4" id="footer" role="contentinfo" itemscope itemtype="https://schema.org/WPFooter">
+      <div class="container-md">
+
+          <div class="row text-center">
+            
+              <div class="col-12 col-md">
+                  <div class="footer-container">
+                    <div class="apple-icon"><img src="images/apple.png"
+                      alt="apple play button"><img src="images/google.png"
+                      alt="google play button">
+                    </div>
+                      <div class="social-media-icon"><img src="images/fb_icon.png"
+                              alt="social media icon (facebook)"><img src="images/ig_icon.png"
+                              alt="social media icon (instagram)"><img src="images/twitter_icon.png"
+                              alt="social media icon (twitter)"><img src="images/indeed_icon.png"
+                              alt="social media icon (indeed)">
+                            </div>
+                  </div>
+              </div>
+          </div>
+          <div class="row gx-5 ">
+              <div class="col-md-12 col-md order-2 order-md-1 text-center text-md-start">
+                  <div class="footer-info text-center">
+                      <div class="copy-right-icon" itemprop="copyrightHolder"> Coptright&copy; Elvis Tse Studio
+                      </div>
+                  </div>
+              </div>
+ 
+          </div>
+      </div>
+  </footer>
+ <!-- Skip Links -->
+ <div class="skip-link-content">
+  <a href="#main-content" class="skip-link">Skip to Main Content</a><br>
+  <a href="#footer" class="skip-link">Skip to Footer</a>
+</div>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <!-- Animate on Scroll JS -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
